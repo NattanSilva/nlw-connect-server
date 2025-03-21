@@ -2,10 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "Diego Fernandes",
-  "email": "diego@rocketseat.com.br"
+  "name": "Usuario indicado 3",
+  "email": "indicado3@gmai.com",
+  "referrer": "a0c83511-6a2b-4610-b082-da446a457054"
 }
 
 ###
 
-GET http://localhost:3333/invites/diego123
+GET http://localhost:3333/invites/bbcb091c-a5d7-4401-acb5-c4a747fec96d
+
+###
+
+GET http://localhost:3333/subscribers/bbcb091c-a5d7-4401-acb5-c4a747fec96d/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/bbcb091c-a5d7-4401-acb5-c4a747fec96d/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/bbcb091c-a5d7-4401-acb5-c4a747fec96d/ranking/position
+
+###
+
+GET http://localhost:3333/ranking

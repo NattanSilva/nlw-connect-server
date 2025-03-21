@@ -8,6 +8,4 @@ export async function accessInviteLink({
   subscriberId,
 }: AccessInviteLinkParms) {
   await redis.hincrby('referral:access-count', subscriberId, 1)
-
-  return null
 }
